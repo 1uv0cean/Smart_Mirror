@@ -34,7 +34,7 @@ npm run start
 
 #화면 꺼짐 방지
 ```
-sudo apt-get install xscreensaver
+sudo apt-get install xscreensaver -y
 메뉴 -> Preferences -> Screensaver -> Mode에서 Disable Screen Saver 선택 
 ```
 
