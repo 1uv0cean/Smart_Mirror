@@ -37,6 +37,16 @@ sudo apt-get install xscreensaver
 메뉴 -> Preferences -> Screensaver -> Mode에서 Disable Screen Saver 선택 
 ```
 
+#화면 회전
+```
+터미널에서 sudo raspi-config 입력
+Advanced options -> GL Driver -> GL (Full KMS) OpenGL desktop driver with full KMS 선택
+sudo reboot
+메뉴 -> 기본설정 -> Screen Configuration
+Configure -> Screens -> HDMI-1 -> 방향 -> right
+체크표시 클릭해 화면전환 후 OK 클릭
+```
+
 #wifi 절전모드 해제
 ```
 sudo nano /etc/rc.local 
