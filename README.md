@@ -163,13 +163,9 @@ if (typeof module !== "undefined") {module.exports = config;}
 
 
 apiKey: 발급받은 API KEY, location: Incheon , locationID: 1843564 로 수정
-
 ctrl+s로 저장 후 창 닫기
-
 cd MagicMirror
-
 npm run start
-
 날씨가 잘 표시되는지 확인
 ```
 
