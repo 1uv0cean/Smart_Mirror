@@ -174,13 +174,15 @@ npm run start
 ```
 
 #뉴스 맞춤설정   
+```
 https://www.google.co.kr/alerts (구글에서 구글알리미 검색)으로 접속   
 검색창에 원하는 검색어 입력 후 옵션 더보기   
 수신 위치를 RSS 피드로 설정   
 부채모양 오른클릭 - 링크 복사   
-터미널에서 geany MagicMirror/config/config.js   
+geany MagicMirror/config/config.js   
 newsfeed 의 title, url 추가   
 여러개를 쓰고싶으면 {} 로 구분   
+```
 
 
 
