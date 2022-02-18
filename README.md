@@ -21,6 +21,7 @@ sudo reboot
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt install -y nodejs
 git clone https://github.com/MichMich/MagicMirror
+cd MagicMirror
 npm install
 cp config/config.js.sample config/config.js
 ```
